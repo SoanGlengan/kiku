@@ -1,4 +1,6 @@
 # kiku
-meshtastic go brr
+<h3>meshtastic go brr</h3>
+<p>small meshtastic device that is using a esp32 and sx1262</p>
 
-link to the cost spreadsheet: https://docs.google.com/spreadsheets/d/1daOj9rbJtqAOdZNNDehtXnfdnzQVLjkryvcnbeCaL2A/edit?usp=sharing
+
+<a href="https://docs.google.com/spreadsheets/d/1daOj9rbJtqAOdZNNDehtXnfdnzQVLjkryvcnbeCaL2A/edit?usp=sharing"><b>The Bill of Materials<b/><a/>
