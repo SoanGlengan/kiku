@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "libraries") (type "KiCad") (uri "/home/ansel/kicad_projects/libraries") (options "") (descr ""))
+	(lib (name "Wio-SX1262 Module Kicad Library") (type "KiCad") (uri "/home/ansel/kicad_projects/libraries/Wio-SX1262 Module Kicad Library") (options "") (descr ""))
+)
