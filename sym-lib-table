@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "2026-05-28_04-59-36") (type "KiCad") (uri "/home/ansel/kicad_projects/libraries/2026-05-28_04-59-36.kicad_sym") (options "") (descr ""))
 	(lib (name "Wio-SX1262 Schematic Package") (type "KiCad") (uri "/home/ansel/kicad_projects/libraries/Wio-SX1262 Module Kicad Library/Wio-SX1262 Schematic Package.kicad_sym") (options "") (descr ""))
+	(lib (name "libraries") (type "KiCad") (uri "/home/ansel/kicad_projects/libraries") (options "") (descr ""))
 )
