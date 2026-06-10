@@ -4508,7 +4508,7 @@
 		(uuid "454712df-d06d-4d9d-998d-746323d81ed2")
 	)
 	(junction
-		(at 30.48 154.94)
+		(at 29.21 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5864eba8-4ae9-4178-aca9-08ce9fb09c55")
@@ -4563,7 +4563,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 149.86) (xy 30.48 154.94)
+			(xy 29.21 149.86) (xy 29.21 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4573,7 +4573,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 154.94) (xy 29.21 154.94)
+			(xy 29.21 166.37) (xy 27.94 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4703,16 +4703,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 149.86) (xy 30.48 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc6b0ca-e34b-42a4-9008-82a82da0f4ef")
-	)
-	(wire
-		(pts
 			(xy 118.11 128.27) (xy 119.38 128.27)
 		)
 		(stroke
@@ -4830,6 +4820,16 @@
 			(type default)
 		)
 		(uuid "95ad8bcf-7de7-411f-9f26-a53649264756")
+	)
+	(wire
+		(pts
+			(xy 31.75 86.36) (xy 34.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9cf776d-f274-4704-ace8-730260a62bf1")
 	)
 	(wire
 		(pts
@@ -4980,6 +4980,16 @@
 			(type default)
 		)
 		(uuid "d86733cb-cfdf-4cb7-a310-5f4f7abe1824")
+	)
+	(wire
+		(pts
+			(xy 34.29 86.36) (xy 34.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe3eb2a-f4b8-4ea4-8567-1b320f32541d")
 	)
 	(wire
 		(pts
@@ -6221,6 +6231,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 49.53 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ce5ecff-c00d-4ccb-bf1e-f5c6059ddbf1")
+		(property "Reference" "#PWR019"
+			(at 49.53 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77f93e5e-6a75-4be8-b950-371b92a2428a")
+		)
+		(instances
+			(project "kiku"
+				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 93.98 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -6398,7 +6486,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "EN"
 			(at 95.25 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6699,7 +6787,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 154.94 0)
+		(at 36.83 166.37 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6710,7 +6798,7 @@
 		(dnp no)
 		(uuid "3241c634-1027-4cf2-97da-c738c101dc44")
 		(property "Reference" "#PWR029"
-			(at 38.1 161.29 0)
+			(at 36.83 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +6809,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 159.258 0)
+			(at 36.83 170.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6731,7 +6819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 154.94 0)
+			(at 36.83 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6742,7 +6830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 154.94 0)
+			(at 36.83 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6753,7 +6841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 154.94 0)
+			(at 36.83 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7019,7 +7107,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 29.21 154.94 0)
+		(at 27.94 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7029,7 +7117,7 @@
 		(dnp no)
 		(uuid "3fcf6c0f-1cad-4f2e-aa8e-433275d7f133")
 		(property "Reference" "#PWR013"
-			(at 29.21 158.75 0)
+			(at 27.94 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7040,7 +7128,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 28.956 156.464 0)
+			(at 27.686 167.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7050,7 +7138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 154.94 0)
+			(at 27.94 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7061,7 +7149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 154.94 0)
+			(at 27.94 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7072,7 +7160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 29.21 154.94 0)
+			(at 27.94 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,6 +7946,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 34.29 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66f36bb4-9e79-402f-bb04-e481a7d59399")
+		(property "Reference" "R11"
+			(at 34.036 85.344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "300Ω"
+			(at 34.29 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 32.512 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4f5cfa66-96ec-4344-b1ed-e040c6594a90")
+		)
+		(pin "1"
+			(uuid "747541dc-8c00-46c1-b2c0-3942802093c6")
+		)
+		(instances
+			(project "kiku"
+				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 22.86 153.67 0)
 		(unit 1)
@@ -8251,7 +8420,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 34.29 154.94 270)
+		(at 33.02 166.37 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8262,7 +8431,7 @@
 		(dnp no)
 		(uuid "76fd1bc7-195d-4649-b53d-f5d6e8671583")
 		(property "Reference" "C8"
-			(at 35.5601 151.13 0)
+			(at 34.2901 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8273,7 +8442,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 33.0201 151.13 0)
+			(at 31.7501 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8284,7 +8453,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 30.48 153.9748 0)
+			(at 29.21 165.4048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8295,7 +8464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 154.94 0)
+			(at 33.02 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8306,7 +8475,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 34.29 154.94 0)
+			(at 33.02 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8856,7 +9025,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "BOOT"
 			(at 120.65 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9148,6 +9317,85 @@
 			(project "kiku"
 				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 44.45 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a87557bb-a27d-4d20-910b-b4fa6ed3f397")
+		(property "Reference" "SW3"
+			(at 44.45 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESET CHARGER"
+			(at 44.45 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1100P"
+			(at 44.45 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 44.45 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fb08cabc-fc92-4007-87ab-39edde0c2aaa")
+		)
+		(pin "1"
+			(uuid "44539726-0a73-448f-b423-f42c234e01e3")
+		)
+		(instances
+			(project "kiku"
+				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -9542,6 +9790,84 @@
 			(project "kiku"
 				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 86.36 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5731cfe-f48d-4976-acb6-6ecd1d50cdde")
+		(property "Reference" "#PWR032"
+			(at 31.75 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 90.678 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a512eeb-ab18-40ae-90dd-c98182091152")
+		)
+		(instances
+			(project "kiku"
+				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
