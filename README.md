@@ -1,5 +1,5 @@
 # kiku
-<h3>meshtastic go brr</h3>
+<h2>meshtastic go brr</h2>
 <p>small meshtastic device that is using a esp32 and sx1262</p>
 
 
