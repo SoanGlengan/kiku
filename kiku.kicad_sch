@@ -4743,6 +4743,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 154.94) (xy 46.99 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668497b9-75c3-476a-b7e5-025dbcf02cb9")
+	)
+	(wire
+		(pts
 			(xy 93.98 36.83) (xy 93.98 39.37)
 		)
 		(stroke
@@ -4780,6 +4790,16 @@
 			(type default)
 		)
 		(uuid "743f87c0-aa18-439b-bd0e-0e8218a8ef22")
+	)
+	(wire
+		(pts
+			(xy 34.29 149.86) (xy 34.29 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf6acbb-bcb4-4f01-a246-966772c2977b")
 	)
 	(wire
 		(pts
@@ -5223,6 +5243,30 @@
 			)
 		)
 	)
+	(global_label "CHGSWITCH"
+		(shape input)
+		(at 46.99 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68859977-4393-41a4-9e1a-683a5c3b064f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.6795 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BOOT"
 		(shape input)
 		(at 119.38 38.1 0)
@@ -5271,7 +5315,7 @@
 			)
 		)
 	)
-	(global_label "BattVoltage"
+	(global_label "BATTVOLT"
 		(shape input)
 		(at 176.53 44.45 0)
 		(fields_autoplaced yes)
@@ -5283,7 +5327,7 @@
 		)
 		(uuid "8326ad33-da10-43a0-990c-da1be3325220")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4007 44.45 0)
+			(at 188.2238 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5511,6 +5555,30 @@
 			)
 		)
 	)
+	(global_label "CHGSWITCH"
+		(shape input)
+		(at 176.53 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbaab8a7-1850-4519-a2d7-397808c2659e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.2195 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MOSI"
 		(shape input)
 		(at 176.53 57.15 0)
@@ -5535,7 +5603,7 @@
 			)
 		)
 	)
-	(global_label "BattVoltage"
+	(global_label "BATTVOLT"
 		(shape input)
 		(at 105.41 63.5 90)
 		(fields_autoplaced yes)
@@ -5547,7 +5615,7 @@
 		)
 		(uuid "ec4c8c5d-ee18-4ed8-8cb0-302bf6a69f76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.41 49.6293 90)
+			(at 105.41 51.8062 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6146,6 +6214,84 @@
 			(project "kiku"
 				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 46.99 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "111fa6d7-425e-477d-b539-e1a868819f1a")
+		(property "Reference" "#PWR033"
+			(at 46.99 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 46.99 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 46.99 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d25d6ef4-0fb4-4a00-8607-d933431856c8")
+		)
+		(instances
+			(project "kiku"
+				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9239,6 +9385,88 @@
 			(project "kiku"
 				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2dc6604-8cb8-4030-b90d-679b0d76942f")
+		(property "Reference" "R12"
+			(at 49.53 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 49.53 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.212 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "03e69e01-ef15-4cfc-8d7f-33c465870f3f")
+		)
+		(pin "1"
+			(uuid "ca67fe22-62d7-4730-b178-5d0b38d8390a")
+		)
+		(instances
+			(project "kiku"
+				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
+					(reference "R12")
 					(unit 1)
 				)
 			)
