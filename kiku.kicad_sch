@@ -5077,6 +5077,12 @@
 		(uuid "b4da6735-977d-4150-a35a-e861316014fe")
 	)
 	(junction
+		(at 49.53 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b691f08c-24f4-4e36-beb3-c86133a1ee8c")
+	)
+	(junction
 		(at 181.61 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5388,6 +5394,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 104.14) (xy 49.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826a6146-47b2-4823-b5d5-8dfe2579b171")
+	)
+	(wire
+		(pts
 			(xy 123.19 60.96) (xy 119.38 60.96)
 		)
 		(stroke
@@ -5415,6 +5431,16 @@
 			(type default)
 		)
 		(uuid "8ca248dd-950a-4466-a4a1-d395509e9bf5")
+	)
+	(wire
+		(pts
+			(xy 46.99 102.87) (xy 49.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fac0b0f-b50a-4680-9389-573645bf18ad")
 	)
 	(wire
 		(pts
@@ -5668,6 +5694,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 102.87) (xy 49.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4600589-5a6f-4e1f-880f-1bcdf20fee19")
+	)
+	(wire
+		(pts
 			(xy 36.83 86.36) (xy 39.37 86.36)
 		)
 		(stroke
@@ -5675,6 +5711,30 @@
 			(type default)
 		)
 		(uuid "fab25c4b-f75e-49d8-8a64-97f53d2003fd")
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 176.53 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a5dfc02-957b-4e2e-b2f2-9df4d0bb5f73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.1114 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "BUSY"
 		(shape input)
@@ -5721,6 +5781,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "DIO1"
+		(shape input)
+		(at 176.53 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3527ad11-4057-468a-be01-e507d2de63bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.93 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5796,6 +5880,30 @@
 			)
 		)
 	)
+	(global_label "BUSY"
+		(shape input)
+		(at 176.53 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b7911e9-65ca-4714-92db-2fe827679b5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.4138 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RESET"
 		(shape input)
 		(at 119.38 123.19 180)
@@ -5846,17 +5954,17 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 176.53 62.23 0)
+		(at 146.05 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "6868ca7e-6caf-43ac-aa40-f8bd52955e50")
+		(uuid "659a25a1-418f-4c34-9599-eab33a445104")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.1114 62.23 0)
+			(at 138.4686 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5864,7 +5972,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -5940,30 +6048,6 @@
 			)
 		)
 	)
-	(global_label "RESET"
-		(shape input)
-		(at 176.53 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "842ef43b-23cf-4200-827d-8d6e960bff7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.2603 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "en"
 		(shape input)
 		(at 185.42 39.37 0)
@@ -6009,6 +6093,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 176.53 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9559d4da-416c-4a9d-bfae-3ec1cc32fe16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.2603 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6060,19 +6168,19 @@
 			)
 		)
 	)
-	(global_label "BUSY"
+	(global_label "SCK"
 		(shape input)
-		(at 176.53 54.61 0)
+		(at 146.05 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "a759f3fa-830d-44b7-84cd-7085ca0d2b89")
+		(uuid "a34b82eb-2714-4698-98e6-55696d61d894")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.4138 54.61 0)
+			(at 139.3153 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6080,7 +6188,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -6097,30 +6205,6 @@
 		(uuid "b0be49c3-ed2f-4611-aff6-c55959590d92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 56.6276 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DIO1"
-		(shape input)
-		(at 176.53 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c91c7d75-f2e2-49e6-b91e-000b382df20f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.93 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6228,30 +6312,6 @@
 			)
 		)
 	)
-	(global_label "SCK"
-		(shape input)
-		(at 176.53 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3b1f9ea-5d2f-44ae-96da-024328c0bc01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.2647 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "BATTVOLT"
 		(shape input)
 		(at 106.68 60.96 90)
@@ -6265,30 +6325,6 @@
 		(uuid "ec4c8c5d-ee18-4ed8-8cb0-302bf6a69f76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.68 49.2662 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MISO"
-		(shape input)
-		(at 176.53 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f3cd5b01-8f21-4e69-a3e9-06f9d98ac09f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.1114 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7106,7 +7142,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 99.06 0)
+		(at 49.53 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7117,7 +7153,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ce5ecff-c00d-4ccb-bf1e-f5c6059ddbf1")
 		(property "Reference" "#PWR019"
-			(at 49.53 105.41 0)
+			(at 49.53 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,7 +7164,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 104.14 0)
+			(at 49.53 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7138,7 +7174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 99.06 0)
+			(at 49.53 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7149,7 +7185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 99.06 0)
+			(at 49.53 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,7 +7196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 99.06 0)
+			(at 49.53 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,84 +8687,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 46.99 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "522625b3-0383-4298-b8c7-bd6ee96989ee")
-		(property "Reference" "#PWR040"
-			(at 46.99 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72fac1f1-df1e-41c3-b32d-ffba3fbe3b75")
-		)
-		(instances
-			(project "kiku"
-				(path "/da0f8494-32d1-465d-8e52-ef98de02d741"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 116.84 106.68 0)
 		(unit 1)
@@ -8761,7 +8719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "libraries:smalltestpoint"
 			(at 121.92 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9157,7 +9115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "libraries:smalltestpoint"
 			(at 118.11 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9705,7 +9663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "libraries:smalltestpoint"
 			(at 29.21 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -11586,7 +11544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "libraries:smalltestpoint"
 			(at 114.3 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11774,7 +11732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "libraries:smalltestpoint"
 			(at 93.98 101.6 0)
 			(hide yes)
 			(show_name no)

@@ -584,13 +584,13 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -665,7 +665,7 @@
         "uuid": "da0f8494-32d1-465d-8e52-ef98de02d741"
       }
     ],
-    "used_designators": "U3,L1,#PWR2,#PWR9,#PWR14,#PWR23,#PWR33,#PWR35,#PWR39-40,TP3-7,R14,D1-2,C6,C10,SW4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
